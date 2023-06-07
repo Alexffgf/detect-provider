@@ -93,7 +93,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lavamoat/allow-scripts@npm:^2.0.3":
+"@lavamoat/allow-scripts@npm:2.0.3":
   version: 2.0.3
   resolution: "@lavamoat/allow-scripts@npm:2.0.3"
   dependencies:
@@ -106,9 +106,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/auto-changelog@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "@metamask/auto-changelog@npm:3.1.0"
+"@metamask/auto-changelog@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@metamask/auto-changelog@npm:3.0.0"
   dependencies:
     diff: ^5.0.0
     execa: ^5.1.1
@@ -116,7 +116,7 @@ __metadata:
     yargs: ^17.0.1
   bin:
     auto-changelog: dist/cli.js
-  checksum: cd3c833100c19a80e0b7ae8c174fbbe225700eef5fbabd9b0d6c4b439c8af839792111a17d9ddf2e1939839736413afd7402d2cc08ece373622b5a410da5e9fe
+  checksum: ee6f41b466e8f0deb8bc454936513602c4767b7be94f704da3579e3100154c92779dcfde542076158138d5fcfb64ce491ab7fc30248ae097c7d903be0cad9fb4
   languageName: node
   linkType: hard
 
@@ -124,20 +124,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@metamask/detect-provider@workspace:."
   dependencies:
-    "@lavamoat/allow-scripts": ^2.0.3
-    "@metamask/auto-changelog": ^3.0.0
+    "@lavamoat/allow-scripts": 2.0.3
+    "@metamask/auto-changelog": 3.0.0
     "@metamask/eslint-config": ^4.1.0
-    "@typescript-eslint/eslint-plugin": ^4.5.0
-    "@typescript-eslint/parser": ^4.5.0
-    browserify: ^16.5.1
-    eslint: ^7.7.0
-    eslint-plugin-import: ^2.22.0
-    eslint-plugin-json: ^2.1.1
+    "@typescript-eslint/eslint-plugin": 4.5.0
+    "@typescript-eslint/parser": 4.5.0
+    browserify: 16.5.1
+    eslint: 7.11.0
+    eslint-plugin-import: 2.22.1
+    eslint-plugin-json: 2.1.1
     eslint-plugin-node: ^11.1.0
-    sinon: ^9.0.2
-    tape: ^5.0.0
-    tinyify: ^3.0.0
-    typescript: ^4.0.3
+    sinon: 9.0.2
+    tape: 5.0.0
+    tinyify: 3.0.0
+    typescript: 4.0.3
   languageName: unknown
   linkType: soft
 
@@ -300,7 +300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^4.5.0":
+"@typescript-eslint/eslint-plugin@npm:4.5.0":
   version: 4.5.0
   resolution: "@typescript-eslint/eslint-plugin@npm:4.5.0"
   dependencies:
@@ -337,7 +337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^4.5.0":
+"@typescript-eslint/parser@npm:4.5.0":
   version: 4.5.0
   resolution: "@typescript-eslint/parser@npm:4.5.0"
   dependencies:
@@ -995,7 +995,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserify@npm:^16.5.1":
+"browserify@npm:16.5.1":
   version: 16.5.1
   resolution: "browserify@npm:16.5.1"
   dependencies:
@@ -2071,7 +2071,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.22.0":
+"eslint-plugin-import@npm:2.22.1":
   version: 2.22.1
   resolution: "eslint-plugin-import@npm:2.22.1"
   dependencies:
@@ -2094,7 +2094,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-json@npm:^2.1.1":
+"eslint-plugin-json@npm:2.1.1":
   version: 2.1.1
   resolution: "eslint-plugin-json@npm:2.1.1"
   dependencies:
@@ -2160,7 +2160,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.7.0":
+"eslint@npm:7.11.0":
   version: 7.11.0
   resolution: "eslint@npm:7.11.0"
   dependencies:
@@ -4888,7 +4888,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sinon@npm:^9.0.2":
+"sinon@npm:9.0.2":
   version: 9.0.2
   resolution: "sinon@npm:9.0.2"
   dependencies:
@@ -5342,7 +5342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:^5.0.0":
+"tape@npm:5.0.0":
   version: 5.0.0
   resolution: "tape@npm:5.0.0"
   dependencies:
@@ -5466,7 +5466,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyify@npm:^3.0.0":
+"tinyify@npm:3.0.0":
   version: 3.0.0
   resolution: "tinyify@npm:3.0.0"
   dependencies:
@@ -5625,7 +5625,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.0.3":
+"typescript@npm:4.0.3":
   version: 4.0.3
   resolution: "typescript@npm:4.0.3"
   bin:
@@ -5635,7 +5635,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.0.3#~builtin<compat/typescript>":
   version: 4.0.3
   resolution: "typescript@patch:typescript@npm%3A4.0.3#~builtin<compat/typescript>::version=4.0.3&hash=7ad353"
   bin:
